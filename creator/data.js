@@ -7,28 +7,34 @@ window.PORTFOLIO = {
   name: "ندى أيمن",
   nameEn: "Nada Ayman",
   role: "صانعة محتوى · استراتيجية وسكريبتات وكابشنز",
-  tagline: "أحوّل أفكار العلامات إلى محتوى يُفهم ويُتذكر.",
+  tagline: "محتوى يخلّي المنتج مفهوم، والناس تفتكره.",
   intro:
-    "أشتغل مع علامات في الأكل والصحة والكافيهات على استراتيجية المحتوى، وأفكار الريلز، وكتابة السكريبتات والكابشنز. بحاول كل منشور يخلّي المنتج مفهوم وقريب من الناس.",
+    "بكتب وأخطط محتوى العلامات في الأكل الصحي والكافيهات: من الفكرة والسكريبت لحد الكابشن. اشتغلت مع حسابات متابعينها بالآلاف، وبدأت مع علامات جديدة من الصفر.",
   whatsapp: "201002404308",
   email: "nadafathyabdelwhaab@gmail.com",
   year: "2026",
+  asOf: "24 نوفمبر 2026",
 
   /* أرقام عامة تظهر في شريط الأرقام. اتركي القيمة "" لإخفائها. */
   stats: [
     { value: "3+", label: "سنين خبرة في صناعة المحتوى" },
-    { value: "6", label: "علامات اشتغلت معاها" },
-    { value: "", label: "إجمالي المشاهدات على المحتوى اللي كتبته" },
-    { value: "", label: "إجمالي التفاعلات (لايكات وتعليقات وحفظ)" }
+    { value: "5", label: "علامات اشتغلت معاها" },
+    { value: "198K+", label: "إجمالي متابعين الحسابات اللي اشتغلت عليها" }
   ],
 
   about: [
-    "بدأت بصناعة المحتوى من حوالي ثلاث سنين، واشتغلت مع علامات كتير في مجالات مختلفة. بعضها بدأت معاه من الصفر، وبعضها انضميت له بعد ما كان شغال.",
-    "بحب أفهم صوت العلامة وجمهورها الأول، وبعدها أبني أفكار وخطط وكتابة تناسبهم. وفي علاقات شغل مع بعض العملاء مستمرة لحد النهارده."
+    "بدأت صناعة المحتوى من حوالي ثلاث سنين. اشتغلت مع علامات بدأت معاها من الصفر، وعلامات انضميت لها وهي شغالة وكملت بنفس صوتها.",
+    "بفهم صوت العلامة وجمهورها الأول، وبعدها أبني أفكار وسكريبتات وكابشنز تناسبهم. وفي علاقات شغل مستمرة لحد النهارده."
+  ],
+  strengths: [
+    "سكريبت كامل جاهز للتصوير: Hook ومشاهد وتعليق ونص شاشة وCTA",
+    "خبرة في الأكل الصحي واشتراكات الوجبات والكافيهات",
+    "بدأت مع علامات من الصفر وانضميت لعلامات شغالة",
+    "نبرة قريبة من الناس، ومن غير وعود مبالغ فيها"
   ],
   split: [
     { value: "3", unit: "سنين", text: "خبرة في صناعة المحتوى وكتابة السكريبتات والكابشنز" },
-    { value: "6", unit: "علامات", text: "في الأكل الصحي والكافيهات وغيرها" }
+    { value: "5", unit: "علامات", text: "في الأكل الصحي واشتراكات الوجبات والكافيهات" }
   ],
 
   services: [
@@ -50,72 +56,50 @@ window.PORTFOLIO = {
   /* الأعمال: الحقول الفاضية ("") مش بتظهر. */
   clients: [
     {
-      id: "diet-center",
-      name: "Diet Center KSA",
-      handle: "@dietcenterksa",
+      id: "diet-center", name: "Diet Center KSA", handle: "@dietcenterksa",
       url: "https://www.instagram.com/dietcenterksa/",
-      field: "وجبات صحية واشتراكات",
-      start: "",            // مثال: "من الصفر" أو "من منتصف الطريق"
-      ongoing: false,       // true لو التعاون مستمر
-      role: "",             // دورك الفعلي في الحساب
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",           // جملة نتيجة موثقة لو عندك
-      showSamples: true
+      field: "وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: false,
+      role: "آخر الفيديوهات على الحساب من شغلي",
+      metrics: { followers: "76K", posts: "3,133", topReel: "697K" },
+      result: "", showSamples: true
     },
     {
-      id: "my-healthy-way",
-      name: "My Healthy Way",
-      handle: "@myhealthyway.sa",
+      id: "my-healthy-way", name: "My Healthy Way", handle: "@myhealthyway.sa",
       url: "https://www.instagram.com/myhealthyway.sa/",
-      field: "اشتراكات وجبات صحية",
-      start: "", ongoing: false, role: "",
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",
-      showSamples: true
+      field: "اشتراكات وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: false,
+      role: "آخر الفيديوهات على الحساب من شغلي",
+      metrics: { followers: "56.7K", posts: "836", topReel: "647K" },
+      result: "", showSamples: true
     },
     {
-      id: "florence",
-      name: "Florence Cafe",
-      handle: "@florence_cafe0",
+      id: "florence", name: "Florence Cafe", handle: "@florence_cafe0",
       url: "https://www.instagram.com/florence_cafe0/",
-      field: "كافيه",
-      start: "", ongoing: false, role: "",
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",
-      showSamples: true
+      field: "كافيه", start: "من منتصف الطريق", ongoing: true,
+      role: "محتوى الحساب من منتصف الطريق لحد النهارده",
+      metrics: { followers: "7,701", posts: "225", topReel: "9.3M" },
+      result: "", showSamples: true
     },
     {
-      id: "calo",
-      name: "Calo",
-      handle: "@calo_app",
+      id: "calo", name: "Calo", handle: "@calo_app",
       url: "https://www.instagram.com/calo_app/",
-      field: "خطط وجبات واشتراكات",
-      start: "", ongoing: false, role: "",
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",
-      showSamples: true
+      field: "خطط وجبات واشتراكات", start: "", ongoing: false, role: "",
+      metrics: { followers: "58.2K", posts: "2,048", topReel: "12K" },
+      result: "", showSamples: true
     },
     {
-      id: "content-to-growth",
-      name: "Content to Growth",
-      handle: "@contenttogrowth.co",
-      url: "https://www.instagram.com/contenttogrowth.co/",
-      field: "",            // اكتبي مجال الحساب
-      start: "", ongoing: false, role: "",
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",
-      showSamples: false
+      id: "blanc", name: "Blanc", handle: "@blanc_cafe1",
+      url: "https://www.instagram.com/blanc_cafe1/",
+      field: "كافيه ومطعم", start: "من الصفر", ongoing: true,
+      role: "بدأت مع الحساب من أول يوم، وهو لسه في بداية الطريق",
+      metrics: { followers: "226", posts: "43", topReel: "2.2K" },
+      result: "", showSamples: true
     },
     {
-      id: "facebook-page",
-      name: "صفحة فيسبوك",   // غيّري لاسم الصفحة الحقيقي
-      handle: "Facebook",
+      id: "facebook-page", name: "صفحة فيسبوك", handle: "Facebook",
       url: "https://www.facebook.com/share/1CJf9jCQMq/?mibextid=wwXIfr",
-      field: "",
-      start: "", ongoing: false, role: "",
-      metrics: { followers: "", views: "", likes: "", posts: "" },
-      result: "",
-      showSamples: false
+      field: "", start: "", ongoing: false, role: "",
+      metrics: {}, result: "", showSamples: false,
+      hidden: true   // اتخفت لحد ما نعرف اسم الصفحة. شيلي السطر ده لما تبعتي الاسم.
     }
   ],
 
@@ -227,6 +211,33 @@ window.PORTFOLIO = {
       captions: [
         { kind: "تعليمي", text: "تنويع الوجبات خلال الأسبوع بيخلي الالتزام أسهل. جربي تغيّري في اختياراتك." },
         { kind: "ترويجي", text: "اختاري خطتك وابدأي. [أضيفي العرض إن وجد]" }
+      ]
+    }
+    ,{
+      client: "blanc",
+      reels: [
+        {
+          title: "سهرة الساحة",
+          hook: "في مكان بيبدأ يومه لما الشمس تغيب.",
+          scenes: "لقطة واسعة للجلسة الخارجية بالليل ← إضاءة المكان ← تقديم الطلب على الطاولة.",
+          voice: "جلسة هادية في الهوا الطلق، وأكل متحضر بعناية.",
+          screen: "ليلتك هنا",
+          cta: "احجزي طاولتك من الرسايل.",
+          caption: "الليلة أحلى بجلسة هادية. [أضيفي مواعيد الفتح والعنوان]"
+        },
+        {
+          title: "من العجينة للطاولة",
+          hook: "البيتزا دي بتتعمل قدامك.",
+          scenes: "فرد العجينة ← إضافة الصوص ← الفرن ← أول قطعة.",
+          voice: "كل مرحلة بتتعمل بإيدين الشيف، من أول العجينة لحد الطاولة.",
+          screen: "بإيد الشيف",
+          cta: "قوليلنا إيه تركيبتك المفضلة.",
+          caption: "الحاجة الحلوة بتاخد وقتها. [أضيفي أنواع البيتزا المتاحة]"
+        }
+      ],
+      captions: [
+        { kind: "تعليمي", text: "الفرق بين الفطرة والتقديم يبان في التفاصيل الصغيرة. اسألي الفريق عن الطبق اللي يناسب مزاجك. (عدّلي حسب المنيو)" },
+        { kind: "ترويجي", text: "مساحتنا الخارجية جاهزة لجلستك. [أضيفي العرض والعنوان]" }
       ]
     }
   ]

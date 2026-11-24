@@ -90,6 +90,9 @@ header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);bac
 .split b{font-family:var(--display);font-size:44px;font-weight:500;color:var(--pink);line-height:1.1;display:block}
 .split b small{font-size:18px;color:var(--ink);font-family:var(--body);font-weight:700;margin-inline-start:6px}
 .split span{font-size:14px;color:var(--muted)}
+.strengths{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+.strengths li{position:relative;padding-inline-start:28px;font-size:16px}
+.strengths li::before{content:"✦";position:absolute;inset-inline-start:0;color:var(--pink)}
 .profile{list-style:none;padding:0;margin:0;border-top:1.5px solid var(--ink)}
 .profile li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
 .profile li>span:first-child{font-size:12.5px;font-weight:700;color:var(--muted)}
@@ -198,6 +201,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
       <h2>أفهم <em>الصوت</em> الأول، وبعدها أكتب.</h2>
       <div id="aboutText"></div>
       <div class="split" id="split"></div>
+      <ul class="strengths" id="strengths"></ul>
     </div>
     <ul class="profile" id="profile"></ul>
   </div>
@@ -223,7 +227,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   <div class="wrap">
     <p class="eyebrow">الأعمال</p>
     <h2>علامات <em>اشتغلت</em> معاها</h2>
-    <p class="lead">الحسابات اللي اشتغلت عليها، مع الأرقام الموثقة لكل حساب.</p>
+    <p class="lead">الحسابات اللي اشتغلت عليها. الأرقام دي أرقام الحساب نفسه، مش نتيجة منشور بعينه.</p>
     <div class="clients" id="clientList"></div>
   </div>
 </section>
@@ -257,7 +261,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 </section>
 </main>
 
-<footer><div class="wrap"><span id="copy"></span><span>الأرقام مأخوذة من حسابات العلامات وإحصائياتها.</span></div></footer>
+<footer><div class="wrap"><span id="copy"></span><span id="asof"></span></div></footer>
 
 <script src="data.js"></script>
 <script>
@@ -289,6 +293,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   }
 
   P.about.forEach(function(t){$("aboutText").appendChild(el("p",null,t))});
+  (P.strengths||[]).forEach(function(t){$("strengths").appendChild(el("li",null,t))});
   P.split.forEach(function(s){
     var d=el("div"); var b=el("b",null,s.value+" "); b.appendChild(el("small",null,s.unit));
     add(d,b,el("span",null,s.text)); $("split").appendChild(d);
@@ -300,8 +305,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   P.services.forEach(function(s){var a=el("article"); add(a, el("h3",null,s.t), el("p",null,s.d)); $("svc").appendChild(a)});
   P.process.forEach(function(s,i){var d=el("div"); add(d, el("i",null,"0"+(i+1)), el("h3",null,s.t), el("p",null,s.d)); $("steps").appendChild(d)});
 
-  var KL = {followers:"متابع", views:"مشاهدة", likes:"لايك", posts:"منشور"};
-  P.clients.forEach(function(c){
+  var KL = {followers:"متابع على الحساب", posts:"منشور على الحساب", topReel:"أعلى ريلز على الحساب (مشاهدة)", views:"مشاهدة", likes:"لايك"};
+  P.clients.filter(function(c){return !c.hidden}).forEach(function(c){
     var card = el("article","client");
     var top = el("div","c-top");
     var initial = (c.name.replace(/[^A-Za-z؀-ۿ]/g,"")||"•").charAt(0).toUpperCase();
@@ -345,6 +350,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   [["واتساب","+"+P.whatsapp],["الإيميل",P.email]].forEach(function(r){
     var li=el("li"); add(li, el("span",null,r[0]), el("b",null,r[1])); $("cinfo").appendChild(li);
   });
+  $("asof").textContent = "أرقام المتابعين والمنشورات هي أرقام حسابات العلامات نفسها بتاريخ " + P.asOf + ".";
   $("copy").textContent = "© " + P.year + " " + P.name;
 })();
 </script>
