@@ -19,6 +19,7 @@ window.PORTFOLIO = {
   stats: [
     { value: "3+", label: "سنين خبرة في صناعة المحتوى" },
     { value: "5", label: "علامات اشتغلت معاها" },
+    { value: "9.3M", label: "مشاهدة لأعلى ريلز نزّلته (Florence Cafe)" },
     { value: "198K+", label: "إجمالي متابعين الحسابات اللي اشتغلت عليها" }
   ],
 
@@ -77,12 +78,14 @@ window.PORTFOLIO = {
       field: "كافيه", start: "من منتصف الطريق", ongoing: true,
       role: "محتوى الحساب من منتصف الطريق لحد النهارده",
       metrics: { followers: "7,701", posts: "225", topReel: "9.3M" },
-      result: "", showSamples: true
+      topReelLabel: "أعلى ريلز نزّلته (مشاهدة)",
+      result: "ريلز نزّلته على الحساب ووصل 9.3 مليون مشاهدة.", showSamples: true
     },
     {
       id: "calo", name: "Calo", handle: "@calo_app",
       url: "https://www.instagram.com/calo_app/",
-      field: "خطط وجبات واشتراكات", start: "", ongoing: false, role: "",
+      field: "خطط وجبات واشتراكات", start: "من منتصف الطريق", ongoing: false,
+      role: "آخر 40 بوست وفيديو على الحساب من شغلي",
       metrics: { followers: "58.2K", posts: "2,048", topReel: "12K" },
       result: "", showSamples: true
     },
@@ -93,13 +96,6 @@ window.PORTFOLIO = {
       role: "بدأت مع الحساب من أول يوم، وهو لسه في بداية الطريق",
       metrics: { followers: "226", posts: "43", topReel: "2.2K" },
       result: "", showSamples: true
-    },
-    {
-      id: "facebook-page", name: "صفحة فيسبوك", handle: "Facebook",
-      url: "https://www.facebook.com/share/1CJf9jCQMq/?mibextid=wwXIfr",
-      field: "", start: "", ongoing: false, role: "",
-      metrics: {}, result: "", showSamples: false,
-      hidden: true   // اتخفت لحد ما نعرف اسم الصفحة. شيلي السطر ده لما تبعتي الاسم.
     }
   ],
 

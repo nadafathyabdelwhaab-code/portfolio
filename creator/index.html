@@ -320,7 +320,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     if(c.role) card.appendChild(el("p",null,"دوري: "+c.role));
     var k = el("div","kpis");
     Object.keys(KL).forEach(function(key){
-      var v=c.metrics&&c.metrics[key]; if(v&&String(v).trim()){var d=el("div","kpi"); add(d, el("b",null,v), el("span",null,KL[key])); k.appendChild(d)}
+      var v=c.metrics&&c.metrics[key]; if(v&&String(v).trim()){var d=el("div","kpi"); add(d, el("b",null,v), el("span",null,(key==="topReel"&&c.topReelLabel)||KL[key])); k.appendChild(d)}
     });
     if(k.children.length) card.appendChild(k);
     if(c.result) card.appendChild(el("p",null,c.result));
