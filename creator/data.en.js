@@ -18,7 +18,7 @@ window.PORTFOLIO = {
     servicesEyebrow: "Services", servicesTitle: "What I can *work on*",
     processEyebrow: "How I work", processTitle: "From the idea to the *final script*",
     workEyebrow: "Work", workTitle: "Brands I've *worked* with",
-    workLead: "The accounts I worked on. Numbers are the account's own, unless marked as my work.",
+    workLead: "I've worked with 20 brands; these are the 5 closest accounts. Numbers are the account's own, unless marked as my work.",
     samplesEyebrow: "Writing samples", samplesTitle: "Ideas, *scripts* and captions",
     samplesLead: "Original writing samples that show my style. They are proposed ideas, not posts that were published on the brands' accounts. The brands' audiences read Arabic, so the real versions are written in Arabic; these are translated.",
     contactEyebrow: "Contact", contactTitle: "Shall we *work together*?",
@@ -36,9 +36,9 @@ window.PORTFOLIO = {
 
   stats: [
     { value: "3+", label: "years creating content" },
-    { value: "5", label: "brands I've worked with" },
+    { value: "20", label: "brands I've worked with" },
     { value: "9.3M", label: "views on the top reel I posted (Florence Cafe)" },
-    { value: "198K+", label: "combined followers across the accounts I worked on" }
+    { value: "198K+", label: "combined followers across the 5 accounts shown here" }
   ],
 
   about: [
@@ -53,7 +53,7 @@ window.PORTFOLIO = {
   ],
   split: [
     { value: "3", unit: "years", text: "creating content, writing scripts and captions" },
-    { value: "5", unit: "brands", text: "in healthy food, meal subscriptions and cafés" }
+    { value: "20", unit: "brands", text: "in healthy food, meal subscriptions, cafés and more" }
   ],
 
   services: [
