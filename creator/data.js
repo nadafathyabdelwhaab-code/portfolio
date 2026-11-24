@@ -8,7 +8,7 @@ window.PORTFOLIO = {
   role: "صانعة محتوى · استراتيجية وسكريبتات وكابشنز",
   tagline: "محتوى يخلّي المنتج مفهوم، والناس تفتكره.",
   intro:
-    "بكتب وأخطط محتوى العلامات في الأكل الصحي والكافيهات: من الفكرة والسكريبت لحد الكابشن. اشتغلت مع حسابات متابعينها بالآلاف، وبدأت مع علامات جديدة من الصفر.",
+    "بكتب وأخطط محتوى العلامات في الأكل والمطاعم والكافيهات والتجميل والتعليم: من الفكرة والسكريبت لحد الكابشن. اشتغلت مع حسابات متابعينها بالآلاف، وبدأت مع علامات جديدة من الصفر.",
   whatsapp: "201002404308",
   email: "nadafathyabdelwhaab@gmail.com",
   year: "2026",
@@ -23,7 +23,7 @@ window.PORTFOLIO = {
     servicesEyebrow: "الخدمات", servicesTitle: "اللي أقدر *أشتغل* عليه",
     processEyebrow: "طريقة الشغل", processTitle: "من الفكرة *للنص النهائي*",
     workEyebrow: "الأعمال", workTitle: "علامات *اشتغلت* معاها",
-    workLead: "اشتغلت مع 20 علامة، وده أقرب 5 حسابات منهم. الأرقام دي أرقام الحساب نفسه، إلا لو مكتوب إنها من شغلي.",
+    workLead: "اشتغلت مع 20 علامة، وده أقرب 11 حساب منهم. الأرقام دي أرقام الحساب نفسه، إلا لو مكتوب إنها من شغلي.",
     samplesEyebrow: "عينات الكتابة", samplesTitle: "أفكار *وسكريبتات* وكابشنز",
     samplesLead: "نماذج كتابة أصلية لتوضيح أسلوبي. هي أفكار مقترحة وليست منشورات اتنشرت على حسابات العلامات.",
     contactEyebrow: "تواصل", contactTitle: "نشتغل *سوا*؟",
@@ -36,7 +36,7 @@ window.PORTFOLIO = {
     asOfText: "أرقام المتابعين والمنشورات هي أرقام حسابات العلامات نفسها بتاريخ ",
     waMsg: "أهلًا ندى، شفت البورتفوليو وعايزة أتكلم معاكي عن محتوى براندي.",
     langLabel: "English", langHref: "en/",
-    profile: [["الدور", "صانعة محتوى"], ["المجالات", "أكل صحي، اشتراكات وجبات، كافيهات"], ["أعمل على", "استراتيجية، أفكار، سكريبتات، كابشنز"], ["اللغة", "عربي بنبرة قريبة من الناس"]]
+    profile: [["الدور", "صانعة محتوى"], ["المجالات", "أكل ومطاعم، كافيهات، تجميل، تعليم"], ["أعمل على", "استراتيجية، أفكار، سكريبتات، كابشنز"], ["اللغة", "عربي بنبرة قريبة من الناس"]]
   },
 
   /* أرقام عامة تظهر في شريط الأرقام. اتركي القيمة "" لإخفائها. */
@@ -44,22 +44,22 @@ window.PORTFOLIO = {
     { value: "3+", label: "سنين خبرة في صناعة المحتوى" },
     { value: "20", label: "علامة اشتغلت معاها" },
     { value: "9.3M", label: "مشاهدة لأعلى ريلز نزّلته (Florence Cafe)" },
-    { value: "198K+", label: "إجمالي متابعين الحسابات الخمسة المعروضة هنا" }
+    { value: "320K+", label: "إجمالي متابعين الـ11 حساب المعروضين هنا" }
   ],
 
   about: [
     "بدأت صناعة المحتوى من حوالي ثلاث سنين. اشتغلت مع علامات بدأت معاها من الصفر، وعلامات انضميت لها وهي شغالة وكملت بنفس صوتها.",
-    "بفهم صوت العلامة وجمهورها الأول، وبعدها أبني أفكار وسكريبتات وكابشنز تناسبهم. وفي علاقات شغل مستمرة لحد النهارده."
+    "بفهم صوت العلامة وجمهورها الأول، وبعدها أبني أفكار وسكريبتات وكابشنز تناسبهم. والعلامات المعروضة هنا علاقات شغل مستمرة لحد النهارده، بتتراوح مدتها من سنة لحد حوالي 3 سنين."
   ],
   strengths: [
     "سكريبت كامل جاهز للتصوير: Hook ومشاهد وتعليق ونص شاشة وCTA",
-    "خبرة في الأكل الصحي واشتراكات الوجبات والكافيهات",
+    "خبرة في الأكل والمطاعم والكافيهات والتجميل والتعليم",
     "بدأت مع علامات من الصفر وانضميت لعلامات شغالة",
     "نبرة قريبة من الناس، ومن غير وعود مبالغ فيها"
   ],
   split: [
     { value: "3", unit: "سنين", text: "خبرة في صناعة المحتوى وكتابة السكريبتات والكابشنز" },
-    { value: "20", unit: "علامة", text: "في الأكل الصحي واشتراكات الوجبات والكافيهات وغيرها" }
+    { value: "20", unit: "علامة", text: "في الأكل والمطاعم والكافيهات والتجميل والتعليم وغيرها" }
   ],
 
   services: [
@@ -83,7 +83,7 @@ window.PORTFOLIO = {
     {
       id: "diet-center", name: "Diet Center KSA", handle: "@dietcenterksa",
       url: "https://www.instagram.com/dietcenterksa/",
-      field: "وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: false,
+      field: "وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: true,
       role: "آخر الفيديوهات على الحساب من شغلي",
       metrics: { followers: "76K", posts: "3,133", topReel: "697K" },
       result: "", showSamples: true
@@ -91,7 +91,7 @@ window.PORTFOLIO = {
     {
       id: "my-healthy-way", name: "My Healthy Way", handle: "@myhealthyway.sa",
       url: "https://www.instagram.com/myhealthyway.sa/",
-      field: "اشتراكات وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: false,
+      field: "اشتراكات وجبات صحية · السعودية", start: "من منتصف الطريق", ongoing: true,
       role: "آخر الفيديوهات على الحساب من شغلي",
       metrics: { followers: "56.7K", posts: "836", topReel: "647K" },
       result: "", showSamples: true
@@ -108,7 +108,7 @@ window.PORTFOLIO = {
     {
       id: "calo", name: "Calo", handle: "@calo_app",
       url: "https://www.instagram.com/calo_app/",
-      field: "خطط وجبات واشتراكات", start: "من منتصف الطريق", ongoing: false,
+      field: "خطط وجبات واشتراكات", start: "من منتصف الطريق", ongoing: true,
       role: "آخر 40 بوست وفيديو على الحساب من شغلي",
       metrics: { followers: "58.2K", posts: "2,048", topReel: "12K" },
       result: "", showSamples: true
@@ -120,6 +120,48 @@ window.PORTFOLIO = {
       role: "بدأت مع الحساب من أول يوم، وهو لسه في بداية الطريق",
       metrics: { followers: "226", posts: "43", topReel: "2.2K" },
       result: "", showSamples: true
+    }
+    ,{
+      id: "ali", name: "Ali Elghazoly", handle: "@ali_elghazoly_",
+      url: "https://www.instagram.com/ali_elghazoly_/",
+      field: "دعوات زفاف رقمية", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "10.6K", posts: "32", topReel: "777K" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
+    }
+    ,{
+      id: "sherry", name: "Sherry Center", handle: "Facebook",
+      url: "",
+      field: "مركز تجميل وعناية شخصية", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "5.6K", topReel: "13.8K" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
+    }
+    ,{
+      id: "3c", name: "3C School", handle: "@3cschool",
+      url: "https://www.instagram.com/3cschool/",
+      field: "تعليم برمجة للأطفال", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "47.5K", posts: "806", topReel: "5M" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
+    }
+    ,{
+      id: "mutsu", name: "Mutsu Sushi", handle: "@mutsu_sushi",
+      url: "https://www.instagram.com/mutsu_sushi/",
+      field: "مطعم سوشي · الإسكندرية", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "22.6K", posts: "399", topReel: "108K" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
+    }
+    ,{
+      id: "cozy", name: "Cozy Cafe", handle: "@cozy.cafekw",
+      url: "https://www.instagram.com/cozy.cafekw/",
+      field: "كافيه · الكويت", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "4,203", posts: "202", topReel: "173K" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
+    }
+    ,{
+      id: "italian", name: "ItalianCucina", handle: "@italian_cucinaq8",
+      url: "https://www.instagram.com/italian_cucinaq8/",
+      field: "مطعم إيطالي · الكويت", start: "من الصفر", ongoing: true, role: "",
+      metrics: { followers: "33.3K", posts: "1,554", topReel: "89.4K" },
+      result: "شغالين مع بعض من سنة لحد النهارده، وحققنا شغل كويس.", showSamples: false
     }
   ],
 

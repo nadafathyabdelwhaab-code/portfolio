@@ -66,8 +66,8 @@
     });
     if(k.children.length) card.appendChild(k);
     if(c.result) card.appendChild(el("p",null,c.result));
-    var act = el("div","actions"); var a = el("a","btn btn-ghost btn-sm",U.openAccount); a.href=c.url; a.target="_blank"; a.rel="noopener"; act.appendChild(a);
-    card.appendChild(act);
+    if(c.url){ var act = el("div","actions"); var a = el("a","btn btn-ghost btn-sm",U.openAccount); a.href=c.url; a.target="_blank"; a.rel="noopener"; act.appendChild(a);
+    card.appendChild(act); }
     $("clientList").appendChild(card);
   });
 

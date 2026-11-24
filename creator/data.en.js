@@ -4,7 +4,7 @@ window.PORTFOLIO = {
   role: "Content Creator · Strategy, Scripts & Captions",
   tagline: "Content that makes the product clear, and gets remembered.",
   intro:
-    "I plan and write content for food, wellness and café brands: from the idea and the script to the caption. I've worked on accounts with tens of thousands of followers, and started new brands from zero.",
+    "I plan and write content for food, restaurant, café, beauty and education brands: from the idea and the script to the caption. I've worked on accounts with tens of thousands of followers, and started new brands from zero.",
   whatsapp: "201002404308",
   email: "nadafathyabdelwhaab@gmail.com",
   year: "2026",
@@ -18,7 +18,7 @@ window.PORTFOLIO = {
     servicesEyebrow: "Services", servicesTitle: "What I can *work on*",
     processEyebrow: "How I work", processTitle: "From the idea to the *final script*",
     workEyebrow: "Work", workTitle: "Brands I've *worked* with",
-    workLead: "I've worked with 20 brands; these are the 5 closest accounts. Numbers are the account's own, unless marked as my work.",
+    workLead: "I've worked with 20 brands; these are the 11 closest accounts. Numbers are the account's own, unless marked as my work.",
     samplesEyebrow: "Writing samples", samplesTitle: "Ideas, *scripts* and captions",
     samplesLead: "Original writing samples that show my style. They are proposed ideas, not posts that were published on the brands' accounts. The brands' audiences read Arabic, so the real versions are written in Arabic; these are translated.",
     contactEyebrow: "Contact", contactTitle: "Shall we *work together*?",
@@ -31,29 +31,29 @@ window.PORTFOLIO = {
     asOfText: "Follower and post counts are the brands' own account figures as of ",
     waMsg: "Hi Nada, I saw your portfolio and I'd like to talk about content for my brand.",
     langLabel: "العربية", langHref: "../",
-    profile: [["Role", "Content Creator"], ["Fields", "Healthy food, meal subscriptions, cafés"], ["I work on", "Strategy, ideas, scripts, captions"], ["Language", "Arabic and English"]]
+    profile: [["Role", "Content Creator"], ["Fields", "Food & restaurants, cafés, beauty, education"], ["I work on", "Strategy, ideas, scripts, captions"], ["Language", "Arabic and English"]]
   },
 
   stats: [
     { value: "3+", label: "years creating content" },
     { value: "20", label: "brands I've worked with" },
     { value: "9.3M", label: "views on the top reel I posted (Florence Cafe)" },
-    { value: "198K+", label: "combined followers across the 5 accounts shown here" }
+    { value: "320K+", label: "combined followers across the 11 accounts shown here" }
   ],
 
   about: [
     "I started creating content about three years ago. I've worked with brands I started from zero, and with brands I joined while they were already running, carrying on in their own voice.",
-    "I begin by understanding the brand's voice and its audience, then build ideas, scripts and captions that fit them. Some of my working relationships are still going today."
+    "I begin by understanding the brand's voice and its audience, then build ideas, scripts and captions that fit them. The brands shown here are ongoing relationships, from about one year up to roughly three."
   ],
   strengths: [
     "Full scripts ready to shoot: hook, scenes, voiceover, on-screen text and CTA",
-    "Experience in healthy food, meal subscriptions and cafés",
+    "Experience in food, restaurants, cafés, beauty and education",
     "Started brands from zero, and joined brands already running",
     "A friendly, human tone, with no exaggerated promises"
   ],
   split: [
     { value: "3", unit: "years", text: "creating content, writing scripts and captions" },
-    { value: "20", unit: "brands", text: "in healthy food, meal subscriptions, cafés and more" }
+    { value: "20", unit: "brands", text: "in food, restaurants, cafés, beauty, education and more" }
   ],
 
   services: [
@@ -76,7 +76,7 @@ window.PORTFOLIO = {
     {
       id: "diet-center", name: "Diet Center KSA", handle: "@dietcenterksa",
       url: "https://www.instagram.com/dietcenterksa/",
-      field: "Healthy meals · Saudi Arabia", start: "Joined mid-way", ongoing: false,
+      field: "Healthy meals · Saudi Arabia", start: "Joined mid-way", ongoing: true,
       role: "The most recent videos on the account are my work",
       metrics: { followers: "76K", posts: "3,133", topReel: "697K" },
       result: "", showSamples: true
@@ -84,7 +84,7 @@ window.PORTFOLIO = {
     {
       id: "my-healthy-way", name: "My Healthy Way", handle: "@myhealthyway.sa",
       url: "https://www.instagram.com/myhealthyway.sa/",
-      field: "Healthy meal subscriptions · Saudi Arabia", start: "Joined mid-way", ongoing: false,
+      field: "Healthy meal subscriptions · Saudi Arabia", start: "Joined mid-way", ongoing: true,
       role: "The most recent videos on the account are my work",
       metrics: { followers: "56.7K", posts: "836", topReel: "647K" },
       result: "", showSamples: true
@@ -101,7 +101,7 @@ window.PORTFOLIO = {
     {
       id: "calo", name: "Calo", handle: "@calo_app",
       url: "https://www.instagram.com/calo_app/",
-      field: "Meal plans & subscriptions", start: "Joined mid-way", ongoing: false,
+      field: "Meal plans & subscriptions", start: "Joined mid-way", ongoing: true,
       role: "The last 40 posts and videos on the account are my work",
       metrics: { followers: "58.2K", posts: "2,048", topReel: "12K" },
       result: "", showSamples: true
@@ -113,6 +113,48 @@ window.PORTFOLIO = {
       role: "I've been with the account since day one, and it's still early on",
       metrics: { followers: "226", posts: "43", topReel: "2.2K" },
       result: "", showSamples: true
+    }
+    ,{
+      id: "ali", name: "Ali Elghazoly", handle: "@ali_elghazoly_",
+      url: "https://www.instagram.com/ali_elghazoly_/",
+      field: "Digital wedding invitations", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "10.6K", posts: "32", topReel: "777K" },
+      result: "Working together for a year until today, with good results.", showSamples: false
+    }
+    ,{
+      id: "sherry", name: "Sherry Center", handle: "Facebook",
+      url: "",
+      field: "Beauty & personal care center", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "5.6K", topReel: "13.8K" },
+      result: "Working together for a year until today, with good results.", showSamples: false
+    }
+    ,{
+      id: "3c", name: "3C School", handle: "@3cschool",
+      url: "https://www.instagram.com/3cschool/",
+      field: "Coding school for kids", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "47.5K", posts: "806", topReel: "5M" },
+      result: "Working together for a year until today, with good results.", showSamples: false
+    }
+    ,{
+      id: "mutsu", name: "Mutsu Sushi", handle: "@mutsu_sushi",
+      url: "https://www.instagram.com/mutsu_sushi/",
+      field: "Sushi restaurant · Alexandria", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "22.6K", posts: "399", topReel: "108K" },
+      result: "Working together for a year until today, with good results.", showSamples: false
+    }
+    ,{
+      id: "cozy", name: "Cozy Cafe", handle: "@cozy.cafekw",
+      url: "https://www.instagram.com/cozy.cafekw/",
+      field: "Café · Kuwait", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "4,203", posts: "202", topReel: "173K" },
+      result: "Working together for a year until today, with good results.", showSamples: false
+    }
+    ,{
+      id: "italian", name: "ItalianCucina", handle: "@italian_cucinaq8",
+      url: "https://www.instagram.com/italian_cucinaq8/",
+      field: "Italian restaurant · Kuwait", start: "Started from zero", ongoing: true, role: "",
+      metrics: { followers: "33.3K", posts: "1,554", topReel: "89.4K" },
+      result: "Working together for a year until today, with good results.", showSamples: false
     }
   ],
 
